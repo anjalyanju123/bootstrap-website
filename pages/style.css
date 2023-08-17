@@ -1,0 +1,42 @@
+.header{
+    font-family: 'Spectral', serif;
+    font-size: 64px;
+    color: #121212;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #d8deedd3;
+    border-bottom: 1px solid #c9d3ee;
+}
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30%;
+    background-color: #d8deedd3;
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.nav-link{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #363e50;
+}
+.nav-link:hover{
+    color: #363e50;
+    border-color: #363e50;
+    border-top-style: none;
+    border-top-width: medium;
+}
+.delecious{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    text-align: center;
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    color: white;
+}
