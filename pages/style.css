@@ -1,5 +1,5 @@
 .header{
-    width: 1546px;
+    width: 1410px;
     font-family: 'Spectral', serif;
     font-size: 64px;
     color: #121212;
@@ -12,7 +12,7 @@
     border-bottom: 1px solid #c9d3ee;
 }
 .navbar{
-    width: 1546px;
+    width: 1415px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 30%;
@@ -36,7 +36,7 @@
     border-top-width: medium;
 }
 .delecious{
-    width: 1560px;
+    width: 1430px;
     padding-top: 10%;
     padding-bottom: 15%;
     text-align: center;
@@ -122,6 +122,7 @@
     font-size: 12px;
 }
 .eeee{
+    width: 1420px;
     margin-top: 10%;
     padding-left: 250px;
     padding-right: 200px;
@@ -136,7 +137,7 @@
     padding-left: 50px;
 }
 .third{
-    width: 1560px;
+    width: 1430px;
     background-image: url(../images/book-bg.jpg);
     background-size: cover;
     margin-top: 60px;
@@ -255,7 +256,7 @@ form{
 }
 .DOWNLOAD{
     background-color: #f2745f;
-    width: 1560px;
+    width: 1430px;
     height: 200px;
     text-align: center;
 }
@@ -339,6 +340,8 @@ form{
     background-color: rgba(250, 250, 250, 0.9);
 }
 .blog{
+    width: 1420px;
+    height: 800px;
     margin-top: 70px;
     text-align: center;
     background-color: #d8deed85;
@@ -487,6 +490,7 @@ form{
     background-color: rgba(250, 250, 250, 0.9);
 }
 .content5{
+    width: 1430px;
     background-image: url(../images/signup-bg.jpg);
     background-size: cover;
     text-align: center;
@@ -523,6 +527,7 @@ form{
     border-width: 2px;
 }
 .content6{
+    width: 1430px;
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #363e50;
@@ -536,4 +541,120 @@ form{
 .content6 p{
     margin-top: 50px;
     margin-left: 80px;
+}
+@media (max-width:450px) {
+    .delecious{
+        width: 420px;
+        height: 550px;
+    }
+    .delecious h4{
+        margin-top: 80px;
+    }
+    .delecious p{
+        width: 300px;
+        margin-left: 10%;
+        }
+    .cook1{
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }    
+    .we{
+        margin-left: 0%;
+        width: 370px;
+    }
+    .cook2{
+        margin-top: 16%;
+        margin-left: 10%;
+    }
+    .eeee{
+        margin-left: -35%;
+    }
+    .third{
+        width: 390px;
+    }
+    .third h2{
+        margin-left: -2%;
+    }
+    .third img{
+        width: 350px;
+        margin-left: 3%;
+    }
+    form{
+        margin-top: -20%;
+        margin-bottom: 15%;
+        width: 350px;
+        height: 500px;
+        margin-left: 3%;
+    }
+    .day select{
+        width: 300px;
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-left: 1%;
+    }
+    .hour select{
+        width: 300px;
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        margin-left: 7%;
+    }
+    .name input{
+        width: 300px;
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        margin-left: 7%;
+    }
+    .number input{
+        width: 300px;
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        margin-left: 7%;
+    }
+    .persons select{
+        width: 300px;
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        margin-left: 7%;
+    }
+    .primary-btn a {
+        padding-left: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 110px;
+        margin-left: 7%;
+    }
+    .breakfast {
+        margin-left: 13%;
+    }
+    .card1{
+        margin-left: 4%;
+    }
+    .card2{
+        margin-left: 4%;
+    }
+    .card3{
+        margin-left: 4%;
+    }
+    .content{
+        margin-left: 5%;
+    }
+    .content img{
+        width: 300px;
+    }
+    .blog2{
+        margin-top: 30px;
+        margin-left: 5%;
+        height: 250px;
+    }
 }
