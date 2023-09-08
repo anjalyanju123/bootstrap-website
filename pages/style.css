@@ -74,6 +74,16 @@
     padding-left: 20px;
     font-size: 12px;
 }
+.primary2-btn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f2745f;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    font-size: 12px;
+}
 .second{
     width: 1560px;
     margin-top: 10%;
@@ -538,6 +548,13 @@ form{
     display: flex;
     margin-left: 60px;
 }
+.icons img{
+    border-radius: 50%;
+}
+.icons img:hover{
+       background-color: #f2745f;
+       transition: all 0.5s;
+}
 .content6 p{
     margin-top: 50px;
     margin-left: 80px;
@@ -627,7 +644,7 @@ form{
         padding-right: 20px;
         margin-left: 7%;
     }
-    .primary-btn a {
+    .primary2-btn a {
         padding-left: 110px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -652,9 +669,40 @@ form{
     .content img{
         width: 300px;
     }
+
     .blog2{
-        margin-top: 30px;
-        margin-left: 5%;
+        margin-top: 2px;
+        margin-left: 9%;
         height: 250px;
+    }
+    .content2 img{
+        width: 300px;
+    }
+    .blog3{
+        margin-top: 0px;
+        margin-left: 9%;
+        height: 250px;
+    }
+    .content3{
+        margin-left: 5%;
+    }
+    .content3 img{
+        width: 300px;
+    }
+    .blog4{
+        margin-top: 0px;
+        margin-left: 9%;
+        height: 250px;
+    }
+    .content4 img{
+        width: 300px;
+    }
+    .blog5{
+        margin-top: 0px;
+        margin-left: 9%;
+        height: 250px;
+    }
+    .blog{
+        height: 2400px;
     }
 }
