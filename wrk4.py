@@ -1,27 +1,27 @@
-# a=float(input("enter a number::"))
-# if(a%7==0):
-#     print("it is divisible")
-# else:
-#     print("not divisible")    
-# b=float(input("enter a number"))
-# if(b%5==0):
-#     print("hello")
-# else:
-#     print("bye")    
-# c=int(input("enter a number.."))
-# c=c%10
-# print(c)
-# unit=float(input("enter the unit :"))
-# u=5*(unit-100)
-# p=500+((unit-200)*10)
-# if(unit<=100):
-#     print("free")
-# elif(unit>=100 and unit<=200):    
-#     print("total Bill=",u)
-# elif(unit>200):
-#     print("total Bill=",p)    
-# else:
-#     print("invalid input")  
+a=float(input("enter a number::"))
+if(a%7==0):
+    print("it is divisible")
+else:
+    print("not divisible")    
+b=float(input("enter a number"))
+if(b%5==0):
+    print("hello")
+else:
+    print("bye")    
+c=int(input("enter a number.."))
+c=c%10
+print(c)
+unit=float(input("enter the unit :"))
+u=5*(unit-100)
+p=500+((unit-200)*10)
+if(unit<=100):
+    print("free")
+elif(unit>=100 and unit<=200):    
+    print("total Bill=",u)
+elif(unit>200):
+    print("total Bill=",p)    
+else:
+    print("invalid input")  
 r=int(input("enter a day :"))
 d={1:"sunday",
    2:"monday",
