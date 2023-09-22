@@ -61,15 +61,36 @@
 #     count=count-1
 # print("reverse of",strg ,"is")
 # print(reverse)
+# program for finding greatest number
+# l4=[]
+# n1=int(input("enter the size of list:"))
+# i=0
+# while i<n1:
+#     print("enter the element{}:".format(i+1))
+#     l=int(input())
+#     l4.append(l)
+#     i+=1
+# l4.sort()
+# print("largest element is :",l4[n1-1])
 
-l4=[]
+# program for finding number of words in a string
+# string=[]
+# string=str(input("enter the words:"))
+# word=len(string.split())
+# print("number of words :",str(word))
+l1=[]
 n1=int(input("enter the size of list:"))
 i=0
 while i<n1:
-    print("enter the element{}:".format(i+1))
-    l=int(input())
-    l4.append(l)
+    print("enter the list elements{}:".format(i+1))
+    l=str(input())
+    l1.append(l)
     i+=1
-print(l4)
-l4.sort()
-list=len(l4)
+l2=[]
+c=0
+while c<n1:
+    k=len(l1[c])
+    if(k>=5):
+         l2.append(l1[c])
+         k+=1
+print(l2)         
