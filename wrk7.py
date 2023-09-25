@@ -78,19 +78,45 @@
 # string=str(input("enter the words:"))
 # word=len(string.split())
 # print("number of words :",str(word))
-l1=[]
-n1=int(input("enter the size of list:"))
-i=0
-while i<n1:
-    print("enter the list elements{}:".format(i+1))
-    l=str(input())
-    l1.append(l)
-    i+=1
-l2=[]
-c=0
-while c<n1:
-    k=len(l1[c])
-    if(k>=5):
-         l2.append(l1[c])
-         k+=1
-print(l2)         
+# program for printing new list containing 5 characters\
+
+# l1=[]
+# n1=int(input("enter the size of list:"))
+# i=0
+# while i<n1:
+#     print("enter the list elements{}:".format(i+1))
+#     l=str(input())
+#     l1.append(l)
+#     i+=1
+# l2=[]    
+# for words in l1:
+#      if len(words) > 5:
+#         continue
+#      l2.append(words)
+# print(l2)    
+# program for number pyramid
+
+# rows = int(input("Enter number of rows: "))
+
+# for i in range(rows):
+#     for j in range(i+1): 
+#         print(j+1,end= "")
+#     print("\n")              
+# program for alphabet pyramid
+
+# rows = int(input("Enter number of rows: "))
+# ascii=65
+# for i in range(rows):
+#     for j in range(i+1): 
+#          value=chr(ascii)
+#          print(value,end= "")
+#          ascii+=1 
+#     print("\n")   
+# program for printing even number pyramid
+
+rows = int(input("Enter number of rows: "))
+for i in range(rows):
+    for j in range(i+2): 
+        print(2*(j+1),end="")
+    print("\n") 
+    
