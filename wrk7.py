@@ -129,5 +129,16 @@ for i in range(rows):
     for j in range((i*2)+1): 
         print((i+1+j)*2,end="")
     print("\n")
+# program for checking the string is palindrome or not
 
+string= input("Enter string :")   
+revstr="" 
+for i in string: 
+  revstr = i + revstr
+# print("Reversed string : ",revstr) 
+ 
+if(string==revstr): 
+   print("The string is a palindrome.") 
+else: 
+   print("The string is not a palindrome.") 
     
