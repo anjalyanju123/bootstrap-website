@@ -1,5 +1,3 @@
-# b="python"
-# x = ""
 # n=int(input("enter the number of rows:"))
 # i=1
 # while i<=n:
@@ -25,21 +23,13 @@
 #     sum=a+b
 #     return sum
 # print("sum is :",add(a,b))
-b="python"
-n=len(b) 
-i=0
-while i<=n:
-    j=0
-    while j<=i-1:
-      print(b[j],end=" ")
-      j+=1      
-    i+=1
-    print()
-i=0    
-while i<=n:
-  k=0
-  while k<=n-i-1:
-    print(b[k],end=" ")
-    k+=1  
-  i+=1
-  print()     
+  #program for counting vowels in a string
+
+# string=str(input("enter the string:")).lower() 
+# vowels=["a","e","i","o","u"]
+# count=0
+# for i in string:
+#     if i in vowels:
+#         count=count+1
+# print(count)    
+
