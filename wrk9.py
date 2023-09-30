@@ -5,13 +5,23 @@
 #   return result
 # print(myname())
 # program to remove all special characters
-sentence=str(input("enter the string:"))
-def character():
- charts=""
- new_sentence=""
- for i in sentence:
-     if i.isalpha():
-      charts=i+charts
-      new_sentence= charts.replace(i,"")
-      print(new_sentence)
- print(character())   
+# sentence=input("enter the string:")
+# def character():
+#     charact=" "
+#     for i in sentence:
+#         if i.isalpha():
+#              charact+=i
+#     print(charact)
+
+# character()
+# program to print sum of square of numbers
+def square():
+   num=input("enter the numbers:")
+   sq=0
+   for i in num:
+     print(i)
+     sq+=(int(i)**2)
+     print(sq)  
+
+square()  
+      
