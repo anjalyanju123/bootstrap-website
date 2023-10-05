@@ -69,12 +69,53 @@
 #        print("factorial is :",result)
 # fact()    
 # program to print febonacci series upto a limit
-num=int(input("enter the range:"))
-result=0
-a=0
-def sum(result):
-    for i in range(0,num):
-        a=result+i-1
-        result=a
-        print(result,end=",")
-sum(result)
+# num=int(input("enter the range:"))
+# result=0
+# a=1
+# def sum(result):
+#     for i in range(0,num):
+#         b=result+a
+
+#         print(end=",")
+# sum(result)
+
+# program to convert decimal to binay,octal and hexadecimal
+# a=0
+# b=0
+# c=0
+# def convertion(a,b,c):
+#     num=int(input("enter the number:"))
+#     a=bin(num)
+#     b=oct(num)
+#     c=hex(num)
+#     print("binary value of",num ,"is",a)  
+#     print("octal value of",num ,"is",b)  
+#     print("hexadecimal value of",num ,"is",c)  
+# convertion(a,b,c)  
+
+# program to sort a list
+# list=[]
+# n=int(input("enter the size of first list:"))
+# i=0
+# while i<n:
+#     print("enter the element{}:".format(i+1))
+#     l=int(input())
+#     i+=1
+#     list.append(l)   
+# print("list before sorting:",list)
+# def sort(list):
+#     list.sort()
+#     d=sorted(list)
+#     print("after sorting",d)
+# sort(list)     
+
+# program to print pyramid pattern
+c=int(input("enter the number of rows:"))
+for i in range(c):
+    print("* "*(i+1))
+    for j in range(1,i+2):
+        if j%2==0:
+            for j in range(j,0,-1):
+                 print(j,end=" ")
+        print(j,end=" ")
+    print()    
