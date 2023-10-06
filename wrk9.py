@@ -68,16 +68,24 @@
 #         result=result*i
 #        print("factorial is :",result)
 # fact()    
+
 # program to print febonacci series upto a limit
 # num=int(input("enter the range:"))
-# result=0
-# a=1
-# def sum(result):
-#     for i in range(0,num):
-#         b=result+a
-
-#         print(end=",")
-# sum(result)
+# def febonacci(num):
+#     a=0
+#     b=1
+#     c=0
+#     print(a,end=" ")
+#     for i in range(1,num):
+#         a=b
+#         b=c    
+#         c=a+b
+#         print(c,end=" ")
+        
+# if num<=0:
+#     print("enter a positive integer!")
+# else:
+#     febonacci(num)
 
 # program to convert decimal to binay,octal and hexadecimal
 # a=0
@@ -110,12 +118,22 @@
 # sort(list)     
 
 # program to print pyramid pattern
-c=int(input("enter the number of rows:"))
-for i in range(c):
-    print("* "*(i+1))
-    for j in range(1,i+2):
-        if j%2==0:
-            for j in range(j,0,-1):
-                 print(j,end=" ")
-        print(j,end=" ")
-    print()    
+# c=int(input("enter the number of rows:"))
+# for i in range(c):
+#     print("* "*(i+1))   
+#     if i%2==0:
+#          for k in range(i+1,0,-1):
+#                print(k,end=" ")
+#     else:
+#            for j in range(0,i+1):           
+#               print(j+1,end=" ")
+#            print()    
+#     print()  
+
+# program to print the pairs of numbers whose sum is equal to 18
+b=[3,8,12,7,6,10,21,15]
+n=len(b)
+for i in range(n):  
+        for j in range(i+1,n):
+          if (b[i]+b[j]==18):
+            print((b[i],b[j])) 
