@@ -131,9 +131,34 @@
 #     print()  
 
 # program to print the pairs of numbers whose sum is equal to 18
-b=[3,8,12,7,6,10,21,15]
-n=len(b)
-for i in range(n):  
-        for j in range(i+1,n):
-          if (b[i]+b[j]==18):
-            print((b[i],b[j])) 
+# b=[3,8,12,7,6,10,21,15]
+# n=len(b)
+# for i in range(n):  
+#         for j in range(i+1,n):
+#           if (b[i]+b[j]==18):
+#             print((b[i],b[j])) 
+#             break
+# program to find the the pairs of words in a list
+# words=['apple','banana','cherry','date']
+# newlist=[]
+# n=len(words)
+# for i in range(n):
+#      for j in range(n):
+#         for x in words[i]:
+#           if x in words[j]:
+#             pairs=(words[i],words[j])
+#             newlist.append(pairs)
+#             break
+# print(newlist)
+
+# program to print the pairs of number with its sum is odd and product is even
+# b=[2,3,4,5,6]
+# def find(sum):    
+#   n=len(b)
+#   for i in range(n):
+#     for j in range(i+1,n):
+#         sum=b[i]+b[j]
+#         pdt=b[i]*b[j]
+#         if((sum%2==1) and (pdt%2==0)):
+#             print((b[i],b[j])) 
+# find(sum)            
