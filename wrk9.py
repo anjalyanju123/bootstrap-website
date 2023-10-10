@@ -162,3 +162,4 @@
 #         if((sum%2==1) and (pdt%2==0)):
 #             print((b[i],b[j])) 
 # find(sum)            
+
