@@ -8,9 +8,9 @@
 #             break
 
 #program to find the squareroot of a number
-num=int(input("enter a number:"))
-import  math
-x=math.sqrt(num)
-print("square root is:",x)
+# num=int(input("enter a number:"))
+# import  math
+# x=math.sqrt(num)
+# print("square root is:",x)
 
 
