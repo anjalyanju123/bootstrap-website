@@ -161,19 +161,8 @@ def find(sum):
             print((b[i],b[j])) 
 find(sum)            
 
-# program to print the numberof wordsin a list
-
-list2=[]
-n=len(list2)
-i=0
-while i<n:
-    print("enter the element:")
-    l=str(input())
-    i+=1
-    list2.append(l)
-    print(list2)
-
 # menu driven programs
+
 def create():
    k=int(input("enter the size of list:"))
    i=0
@@ -182,7 +171,7 @@ def create():
     l=int(input())
     d.append(l)
     i+=1
-    print(list(d))
+    print(d)
 
 def add():
     
@@ -209,7 +198,7 @@ def sort():
 d=[]
 while True:
 
-    n=int(input("enter the choice:"))
+    n=int(input("enter the choice (1 to 6):"))
 
     if n==1:
             create()
@@ -224,4 +213,4 @@ while True:
     else:
          if n==6:
              print("Exit")
-             break        
+             break          
