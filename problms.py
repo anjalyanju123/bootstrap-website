@@ -75,19 +75,29 @@
 # import random
 # m=random.choice(words)
 # n=len(m)
-# for i in range(n):
-#     print("_",end=" ")
-# print()
-# user_input=input("Guess the word(hint:animal name):")    
-# chance=6
-# i=1
-# while i<=chance:
-#   if m==user_input:
-#     print("congratulations correct")     
-#     for j in range(n):
-#       if user_input in m:
-#          print(user_input,end=" ")
-#       else:
-#          print("_")      
-#     i+=1
+# guessed_letters
     
+# python program for password validation
+import re
+password=input("Enter your PASSWORD:")
+counter=''
+if len(password)>=8:
+   char = re.search("[a-z]", password)
+   if char:
+       char = re.search("[A-Z]", password)
+       if char:
+           char = re.search("[0-9]", password)
+           if char:
+                char = re.search(r"[()!@$#%^&*+-,.?/\:;(){}\<>]", password)
+                if char:
+                    print("valid password")
+                else:
+                      print("password must contain atleast one special character:@#$%^&*-_")  
+           else:
+               print("password must contain atleast one digit")  
+       else:
+             print("password must contain capital letters")   
+   else:
+         print("password must contain lower case letters")                        
+else:
+    print("invalid password","\n"," password must have 8 characters")    
