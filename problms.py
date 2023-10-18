@@ -71,33 +71,63 @@
 
 # word guessing problem
 
-# words=['parrot','duck','cat','dog','chicken']
+# words=['parrot','duck','cat','dog','chicken','cow']
 # import random
 # m=random.choice(words)
-# n=len(m)
-# guessed_letters
-    
+# for i in m:
+#     print("_",end=" ")
+# guessed_letters=''
+# chance=6
+# while chance>0:
+#     attempt=0
+#     user_input=input("enter the guess:")
+#     guessed_letters+=user_input
+#     for x in m:
+#         if x in guessed_letters:
+#             print(x,end=" ")
+#         else:
+#             attempt+=1
+#             print("_",end=" ")  
+#     if attempt==0:
+#         print("correct congratulations")                 
+#     if user_input not in m:
+#         chance-=1
+#         print("wrong","\n","you have",chance,"chance")
+#         if chance==0:
+#             print("you loose")
+
 # python program for password validation
-import re
-password=input("Enter your PASSWORD:")
-counter=''
-if len(password)>=8:
-   char = re.search("[a-z]", password)
-   if char:
-       char = re.search("[A-Z]", password)
-       if char:
-           char = re.search("[0-9]", password)
-           if char:
-                char = re.search(r"[()!@$#%^&*+-,.?/\:;(){}\<>]", password)
-                if char:
-                    print("valid password")
-                else:
-                      print("password must contain atleast one special character:@#$%^&*-_")  
-           else:
-               print("password must contain atleast one digit")  
-       else:
-             print("password must contain capital letters")   
-   else:
-         print("password must contain lower case letters")                        
+# import re
+# password=input("Enter your PASSWORD:")
+# counter=''
+# if len(password)>=8:
+#    char = re.search("[a-z]", password)
+#    if char:
+#        char = re.search("[A-Z]", password)
+#        if char:
+#            char = re.search("[0-9]", password)
+#            if char:
+#                 char = re.search(r"[()!@$#%^&*+-,.?/\:;(){}\<>]", password)
+#                 if char:
+#                     print("valid password")
+#                 else:
+#                       print("password must contain atleast one special character:@#$%^&*-_")  
+#            else:
+#                print("password must contain atleast one digit")  
+#        else:
+#              print("password must contain capital letters")   
+#    else:
+#          print("password must contain lower case letters")                        
+# else:
+#     print("invalid password","\n"," password must have 8 characters")  
+
+# find median of sorted list  
+w=[20,22,23,23,24]
+n=len(w)
+k=int(n/2)
+c=int(n/2)
+m=(w[c]+w[c-1])/2
+if n%2==1:
+    print("Median is ",w[k])
 else:
-    print("invalid password","\n"," password must have 8 characters")    
+   print(m)
