@@ -122,12 +122,23 @@
 #     print("invalid password","\n"," password must have 8 characters")  
 
 # find median of sorted list  
-w=[20,22,23,23,24]
-n=len(w)
-k=int(n/2)
-c=int(n/2)
-m=(w[c]+w[c-1])/2
-if n%2==1:
-    print("Median is ",w[k])
-else:
-   print(m)
+# w=[20,22,23,23.5,23,24]
+# n=len(w)
+# k=int(n/2)
+# c=int(n/2)
+# m=(w[c]+w[c-1])/2
+# if n%2==1:
+#     print("Median is ",w[k])
+# else:
+#    print(m)
+   
+# program to remove duplicates in a list
+num=[]
+n=int(input("enter the list size:"))
+i=0
+while i<n:
+    print("enter the element{}:".format(i+1))
+    l=int(input())
+    i+=1
+    num.append(l)
+print(num)
