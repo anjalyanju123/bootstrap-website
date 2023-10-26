@@ -132,13 +132,19 @@
 # else:
 #    print(m)
    
-# program to remove duplicates in a list
+# program to remove duplicates in a list and print the number elements after removing duplicates
 num=[]
 n=int(input("enter the list size:"))
 i=0
 while i<n:
     print("enter the element{}:".format(i+1))
-    l=int(input())
-    i+=1
+    l=(input())
     num.append(l)
-print(num)
+    i+=1 
+num.sort()    
+for i in range(n):
+    for j in range(i+1,n-1):
+        if num[i]==num[j]:
+           del num[j]
+print(num)   
+print("num of elements in the list is :",len(num))      
